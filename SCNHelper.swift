@@ -1,6 +1,5 @@
 //
 //  SCNHelper.swift
-//  ARKitParticleStuff
 //
 //  Created by Christopher Figueroa on 10/30/17.
 //  Copyright © 2017 kinifi. All rights reserved.
