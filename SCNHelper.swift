@@ -15,7 +15,7 @@ public class SCNHelper {
     //creates a cube and returns it as an SCNNode
     static func CreateCube(width:CGFloat, height:CGFloat, length:CGFloat, chamferRadius:CGFloat) -> SCNNode {
         //create a box
-        let boxGeometry = SCNBox(width: 0.004, height: 0.004, length: 0.004, chamferRadius: 0)
+        let boxGeometry = SCNBox(width: width, height: height, length: length, chamferRadius: chamferRadius)
         let boxNode = SCNNode(geometry: boxGeometry)
         return boxNode
     }
