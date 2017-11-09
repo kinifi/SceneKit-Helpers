@@ -19,4 +19,14 @@ public class MathHelper {
         
     }
     
+    //returns a number between 0 - 1 as a Double
+    static func RandDouble () -> Double {
+        return drand48()
+    }
+    
+    //returns a random number between two given values
+    static func randomBetweenNumbers(firstNum: CGFloat, secondNum: CGFloat) -> CGFloat {
+        return CGFloat(arc4random()) / CGFloat(UINT32_MAX) * abs(firstNum - secondNum) + min(firstNum, secondNum)
+    }
+    
 }
